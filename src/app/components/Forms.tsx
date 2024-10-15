@@ -1,7 +1,7 @@
-import Link from "next/link";
 
 
-export default function () {
+
+export default function Forms() {
 
     return (
         <section className="w-screen">

@@ -1,10 +1,9 @@
 'use client'
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Link from "next/link";
 
 interface PropCards {
     texto: string,
-    imagem: string,
+    imagem?: string,
     link?: string
 }
 
