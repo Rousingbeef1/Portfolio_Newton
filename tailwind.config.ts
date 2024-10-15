@@ -7,8 +7,18 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
+
+      fontFamily:{
+        poppins: ['Poppins', 'sans-serif'],
+        poppinsBold: ['Poppins-bold', 'sans-serif'],
+        poppinsextralight: ['Poppins-extralight', 'sans-serif'],
+        poppinssemibold: ['Poppins-semibold', 'sans-serif']
+      },
+      
       colors: {
+        cinzaClaro: "#121212",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
