@@ -10,14 +10,14 @@ export default function AreaProdutos() {
     const publicidade = '/assets/publicidadecelular.png'
     return (
         
-        <section className="flex justify-center items-center bg-white">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 my-8 bg-sla w-auto">
-                <ProdutoCard texto={"Institucional"} imagem={institucional} link={"http://localhost:3000/portfolioinstitucional"}></ProdutoCard>
-                <ProdutoCard texto={"Identidade Visual"} imagem={identidadeVisual} link={"http://localhost:3000/paginaProdutosIdentidadeVisual"}></ProdutoCard>
-                <ProdutoCard texto={"Publicidade"} imagem={publicidade} link={"http://localhost:3000/portfolioinstitucional"}></ProdutoCard>
-                <ProdutoCard texto={"Web Design"} imagem={"http://localhost:3000/portfolioinstitucional"}></ProdutoCard>
-                <ProdutoCard texto={"Em breve"} imagem={"http://localhost:3000/portfolioinstitucional"}></ProdutoCard>
-                <ProdutoCard texto={"Em breve"} imagem={"http://localhost:3000/portfolioinstitucional"}></ProdutoCard>
+        <section className="flex justify-center items-center bg-[#121212] py-40 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 my-8 bg-sla w-auto animate-slide-fade ">
+                <ProdutoCard texto={"Institucional"} imagem={institucional} link={"/portfolioinstitucional"}></ProdutoCard>
+                <ProdutoCard texto={"Identidade Visual"} imagem={identidadeVisual} link={"/paginaProdutosIdentidadeVisual"}></ProdutoCard>
+                <ProdutoCard texto={"Publicidade"} imagem={publicidade} link={"/publicidade"}></ProdutoCard>
+                <ProdutoCard texto={"Web Design"} imagem={"/portfolioinstitucional"}></ProdutoCard>
+                <ProdutoCard texto={"Em breve"} imagem={"/portfolioinstitucional"}></ProdutoCard>
+                <ProdutoCard texto={"Em breve"} imagem={"/portfolioinstitucional"}></ProdutoCard>
             </div>
         </section>
     );

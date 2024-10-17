@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,6 +10,21 @@ const config: Config = {
   theme: {
 
     extend: {
+
+      keyframes: {
+        slideFade: {
+          '0%': { transform: 'translateX(-100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        slideFaded:{
+         '0%':{ transform: 'translateX(200%)', opacity: '0'},
+         '100%':{transform: 'tranlateX(0)', opacity:'1'},
+        }
+      },
+      animation: {
+        'slide-fade': 'slideFade 1.7s ease-in-out',
+        'slide-fade-direita': 'slideFaded 1.7s ease-in-out'
+      },
 
       fontFamily:{
         poppins: ['Poppins', 'sans-serif'],
