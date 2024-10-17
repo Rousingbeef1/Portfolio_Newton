@@ -4,7 +4,7 @@
 export default function Forms() {
 
     return (
-        <section className="w-screen">
+        <section className="w-screen overflow-hidden">
             <div className="bg-[#240024] w-screen py-32 ">
                 <div className=" w-min mx-auto ">
                     <h2 className="mx-auto w-min text-5xl pb-14 font-poppinssemibold">Contatos</h2>
