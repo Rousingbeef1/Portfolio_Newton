@@ -38,7 +38,7 @@ export default function Servicos(){
                 observer.unobserve(secao);
             }
         };
-    }, []); 
+    },[]); 
 
     return(
         <section id="Servicos" className=" flex flex-col items-center py-32 bg-[#f7f3ff]">

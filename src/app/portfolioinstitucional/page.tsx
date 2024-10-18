@@ -11,9 +11,9 @@ export default function portfolioInstitucional(){
                 <section className="flex justify-center items-center bg-white w-screen ">
                     <div className="flex justify-center items-center h-screen">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 my-8 bg-sla w-auto ">
-                            <ProdutoCard texto={"Semana da Inovação"} imagem={inovacao}></ProdutoCard>
-                            <ProdutoCard texto={"Doação de Gibi"} imagem={gibi}></ProdutoCard>
-                            <ProdutoCard texto={"Tá na Conta"} imagem={taNaConta}></ProdutoCard>
+                            <ProdutoCard texto={"Semana da Inovação"} imagem={inovacao} link="/semanadainovacao"></ProdutoCard>
+                            <ProdutoCard texto={"Doação de Gibi"} imagem={gibi} link="/doacaogibis"></ProdutoCard>
+                            <ProdutoCard texto={"Tá na conta"} imagem={taNaConta} link="/tanaconta"></ProdutoCard>
                             <ProdutoCard texto={"Em breve"} imagem={undefined}></ProdutoCard>
                             <ProdutoCard texto={"Em breve"} imagem={undefined}></ProdutoCard>
                             <ProdutoCard texto={"Em breve"} imagem={undefined}></ProdutoCard>
