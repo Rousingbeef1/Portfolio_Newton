@@ -22,7 +22,7 @@ export default function Forms() {
             setImagem(whatsappoff)
         }
 
-    }, [ativar])
+    }, [ativar,whatsappoff,whatsappon])
 
     useEffect(() => {
         if (instaCheca === false) {
@@ -32,7 +32,7 @@ export default function Forms() {
             setImagem2(instagramon)
         }
 
-    }, [instaCheca])
+    }, [instaCheca,instagramoff,instagramon])
     return (
         <section id='Contatos' className="w-screen overflow-hidden">
             <div className="bg-[#240024] w-screen py-40 ">
@@ -51,12 +51,12 @@ export default function Forms() {
                             <div className='flex gap-8 mt-6'>
                                 <div className='relative'>
                                     <Link href={'https://wa.me/559591624873'}>                                    
-                                        <Image onMouseOver={(e) => { setAtivar(!ativar) }} onMouseLeave={(e) => { setAtivar(!ativar) }} src={imagem} alt={''} width={100} height={100}></Image>
+                                        <Image onMouseOver={() => { setAtivar(!ativar) }} onMouseLeave={() => { setAtivar(!ativar) }} src={imagem} alt={''} width={100} height={100}></Image>
                                     </Link>
                                 </div>
                                 <div>
                                     <Link href={'https://www.instagram.com/_niutin_/'}> 
-                                        <Image onMouseOver={(e) => { setInstaCheca(!instaCheca) }} onMouseLeave={(e) => { setInstaCheca(!instaCheca) }} src={imagem2} alt={''} width={100} height={100}></Image>
+                                        <Image onMouseOver={() => { setInstaCheca(!instaCheca) }} onMouseLeave={() => { setInstaCheca(!instaCheca) }} src={imagem2} alt={''} width={100} height={100}></Image>
                                     </Link>
                                 </div>
                             </div>
