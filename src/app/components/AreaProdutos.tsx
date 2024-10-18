@@ -39,7 +39,7 @@ export default function AreaProdutos() {
     }, []);
 
     return (
-        <section className="flex justify-center items-center py-20 ">
+        <section id='Portfolio'className="flex justify-center items-center py-20 ">
             <div id="sentinela" className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 my-8 bg-sla w-auto ${visible ? 'animate-slide-fade' : ''} py-32 `}>
                 <ProdutoCard texto={"Institucional"} imagem={institucional} link={"/portfolioinstitucional"} />
                 <ProdutoCard texto={"Identidade Visual"} imagem={identidadeVisual} link={"/paginaProdutosIdentidadeVisual"} />

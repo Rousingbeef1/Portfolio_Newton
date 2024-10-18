@@ -10,10 +10,10 @@ export default function NavBar() {
                 <span className="font-poppins text-[#240024]">Newton Campos</span>
             </div>
             <div className="flex gap-5">
-                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"https://www.youtube.com/watch?v=m8kPhXkIpXA"}>Home</Link>
-                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"https://www.youtube.com/watch?v=m8kPhXkIpXA"}>Portfólio</Link>
-                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"https://www.youtube.com/watch?v=m8kPhXkIpXA"}>Serviços</Link>
-                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"https://www.youtube.com/watch?v=m8kPhXkIpXA"}>Contatos</Link>
+                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"#Home"}>Home</Link>
+                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"#Portfolio"}>Portfólio</Link>
+                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"#Servicos"}>Serviços</Link>
+                <Link className="hover:text-slate-300 font-poppins text-[#240024]" href={"#Contatos"}>Contatos</Link>
             </div>
         </nav>
     );
