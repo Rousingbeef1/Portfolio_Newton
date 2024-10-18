@@ -19,11 +19,16 @@ const config: Config = {
         slideFaded:{
          '0%':{ transform: 'translateX(200%)', opacity: '0'},
          '100%':{transform: 'tranlateX(0)', opacity:'1'},
+        },
+        aparecer:{
+          '0%':{ opacity:'0.5'},
+          '100%':{ opacity:'0'}
         }
       },
       animation: {
         'slide-fade': 'slideFade 1.7s ease-in-out',
-        'slide-fade-direita': 'slideFaded 1.7s ease-in-out'
+        'slide-fade-direita': 'slideFaded 1.7s ease-in-out',
+        'surgir': 'aparecer 0.4s ease-in-out'
       },
 
       fontFamily:{
