@@ -1,8 +1,8 @@
 import PaginaDeProduto from "../components/Pagina_de_Produto";
 
 export default function justicaEmFoco() {
-    const imagem1 = require('../../../public/assets/iogurte2.png')
-    const imagem2 = require('../../../public/assets/iogurte3.png')
+    const imagem1 = require('../../../public/assets/iogurtenatural/iogurtenatural.svg')
+    const imagem2 = require('../../../public/assets/iogurtenatural/iogurtenatural2.svg')
     return (
         <div className="">
             <PaginaDeProduto

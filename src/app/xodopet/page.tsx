@@ -1,8 +1,8 @@
 import PaginaDeProduto from "../components/Pagina_de_Produto";
 
 export default function SemanaDainovacao(){
-    const imagem1 =require('../../../public/assets/xodopet1.png')
-    const imagem2 =require('../../../public/assets/xodopet2.png')
+    const imagem1 =require('../../../public/assets/xodopet/xodopet1.svg')
+    const imagem2 =require('../../../public/assets/xodopet/xodopet2.svg')
     return(
         <div className="">
         <PaginaDeProduto

@@ -59,18 +59,17 @@ export default function PaginaDeProduto(props:pagina_de_produto) {
         <>
             <NavBar></NavBar>
 
-            <section className="grid grid-cols-1 gap-12 md:grid-cols-2 bg-white md:py-32 md:px-40 h-screen ">
-                <div className="flex flex-col gap-14 md:row-start-1 ">
+            <section className="grid grid-cols-1 gap-12 md:grid-cols-2 bg-white md:my-32 md:px-40 h-screen p-">
+                <div className="flex flex-col gap-14 md:row-start-1 pb-40">
                     <Image className="w-auto h-auto" src={props.imagem1!} alt={""} width={300} height={300} ></Image>
                     <Image className="w-auto h-auto" src={props.imagem2!} alt={"2"} width={300} height={300}></Image>
                     <Image className={`${ativaTerceira? 'block': 'hidden'} w-auto h-auto`} src={props.imagem3!} alt={"3"} width={300} height={300}></Image>
                     <div className={`${ativa? 'grid': 'hidden'} grid-flow-col- grid-rows-2 grid-cols-2 md:grid-cols-2 md:grid-rows-2 gap-14`}>
-                        <Image src={props.imagem4!} alt={"4"} width={300} height={300}></Image>
+                        <Image className={`${!props.imagem4? 'hidden': ''}`} src={props.imagem4!} alt={"4"} width={300} height={300}></Image>
                         <Image src={props.imagem5!} alt={"5"} width={300} height={300}></Image>
                         <Image className={`${ativaSexta? 'grid': 'hidden'}`} src={props.imagem6!} alt={"6"} width={300} height={300}></Image>
                         <Image className={`${ativaSetima? 'grid': 'hidden'}`} src={props.imagem7!} alt={"7"} width={300} height={300}></Image>
                    
-
                     </div>
                 </div>
                 <div className="row-start-1 md:order-0 p-4">
@@ -78,7 +77,9 @@ export default function PaginaDeProduto(props:pagina_de_produto) {
                     <span className="font-poppinsBold md:text-[1vw] text-lg text-black">Modelo: </span>
                     <span className="font-poppins md:text-[1vw] text-lg text-black">{props.modelo}</span>
                     <p className="font-poppins md:text-[1vw] leading-relaxed text-lg text-black">Objetivo:{props.objetivo}</p>
-                    <p className="font-poppins md:text-[1vw] leading-relaxed mt-4 text-lg text-black">Sobre: {props.sobre}</p>
+                    <p className="font-poppins md:text-[1vw] leading-relaxed mt-4 text-lg text-black">
+                        <span className="font-poppinsBold text-lg md:text-[1vw] text-black">Sobre:</span> {props.sobre}
+                    </p>
                 </div>
             </section>
         </>

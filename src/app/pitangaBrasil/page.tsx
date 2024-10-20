@@ -2,18 +2,18 @@ import Image from "next/image";
 import NavBar from "../components/Navbar";
 
 export default function pitangaBrasil() {
-    const imagem1 = require('../../../public/pitangabrasilimagens/Mask group.png')
-    const imagem2 = require('../../../public/pitangabrasilimagens/Mask group-1.png')
-    const imagem3 = require('../../../public/pitangabrasilimagens/Mask group-2.png')
-    const imagem4 = require('../../../public/pitangabrasilimagens/Mask group-3.png')
-    const imagem5 = require('../../../public/pitangabrasilimagens/Mask group-4.png')
+    const imagem1 = require('../../../public/assets/pitangabrasil/pitangabrasil1.png')
+    const imagem2 = require('../../../public/assets/pitangabrasil/pitangabrasil2.png')
+    const imagem3 = require('../../../public/assets/pitangabrasil/pitangabrasil3.png')
+    const imagem4 = require('../../../public/assets/pitangabrasil/pitangabrasil4.png')
+    const imagem5 = require('../../../public/assets/pitangabrasil/pitangabrasil5.png')
 
     return (
         <>
             <NavBar></NavBar>
             
             <section className="grid grid-cols-1 gap-12 md:grid-cols-2 bg-white md:py-32 md:px-40 h-screen py-6">
-                <div className="flex flex-col gap-14 md:row-start-1">
+                <div className="flex flex-col gap-14 md:row-start-1 pb-40">
                     <Image src={imagem1} alt={"1"}></Image>
                     <Image src={imagem2} alt={"2"}></Image>
                     <Image src={imagem3} alt={"3"}></Image>

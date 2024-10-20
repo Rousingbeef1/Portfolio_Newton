@@ -1,11 +1,11 @@
 import PaginaDeProduto from "../components/Pagina_de_Produto";
 
 export default function SemanaDainovacao(){
-    const imagem1 =require('../../../public/assets/tanaconta1.png')
-    const imagem2 =require('../../../public/assets/tanaconta2.png')
-    const imagem3 =require('../../../public/assets/tanaconta3.png')
-    const imagem4 =require('../../../public/assets/tanaconta4.png')
-    const imagem5 =require('../../../public/assets/tanaconta5.png')
+    const imagem1 =require('../../../public/assets/tanaconta/tanaconta1.svg')
+    const imagem2 =require('../../../public/assets/tanaconta/tanaconta2.svg')
+    const imagem3 =require('../../../public/assets/tanaconta/tanaconta3.svg')
+    const imagem4 =require('../../../public/assets/tanaconta/tanaconta4.svg')
+    const imagem5 =require('../../../public/assets/tanaconta/tanaconta5.svg')
     
     return(
         <div className="">

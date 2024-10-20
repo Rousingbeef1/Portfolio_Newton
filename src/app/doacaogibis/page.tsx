@@ -1,8 +1,8 @@
 import PaginaDeProduto from "../components/Pagina_de_Produto";
 
 export default function DoacaoGibis() {
-    const imagem1 = require('../../../public/assets/campanhadoacao.png')
-    const imagem2 = require('../../../public/assets/doacaopublico.png')
+    const imagem1 = require('../../../public/assets/doacaogibis/doacaogibi1.svg')
+    const imagem2 = require('../../../public/assets/doacaogibis/doacaogibi2.svg')
     return (
         <div className="">
             <PaginaDeProduto
