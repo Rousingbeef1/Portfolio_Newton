@@ -45,12 +45,12 @@ export default function Forms() {
                                 <input className="rounded-md h-8 col-span-2 px-2 py-5 text-black" type="email" name="" id="" placeholder="E-mail" />
                                 <input className="rounded-md h-8 col-span-2 px-2 py-5 text-black" type="text" placeholder="Telefone" />
                                 <input className="rounded-md h-8 col-span-2 px-2 py-5 text-black" type="text" placeholder="Título" />
-                                <input className="rounded-md h-12 col-span-4 px-2 py-10 text-black" type="text" name="" id="" placeholder="Mensagem" />
+                                <input className="rounded-md h-12 col-span-4 px-2 pb-14 pt-5 text-black" type="text" name="" id="" placeholder="Mensagem" />
                                 <button className="mt-2 h-10 col-span-4 bg-white text-[#b5b5b5] hover:bg-green-300 hover:text-white rounded-md p-2" type="submit">Enviar</button>
                             </form>
                             <div className='flex gap-8 mt-6'>
-                                <div className='relative'>
-                                    <Link href={'https://wa.me/559591624873'}>                                    
+                                <div className=''>
+                                    <Link className='w-fit' href={'https://wa.me/559591624873'}>                                    
                                         <Image onMouseOver={() => { setAtivar(!ativar) }} onMouseLeave={() => { setAtivar(!ativar) }} src={imagem} alt={''} width={100} height={100}></Image>
                                     </Link>
                                 </div>
