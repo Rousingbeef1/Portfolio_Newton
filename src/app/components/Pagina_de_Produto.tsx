@@ -1,6 +1,7 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import NavBar from "./Navbar";
 import Image from "next/image";
+import Navbar2 from "./NavBar2";
 
 interface pagina_de_produto{
     imagem1?: StaticImport,
@@ -57,10 +58,10 @@ export default function PaginaDeProduto(props:pagina_de_produto) {
 
     return (
         <>
-            <NavBar></NavBar>
+            <Navbar2></Navbar2>
 
             <section className="grid grid-cols-1 gap-12 md:grid-cols-2 bg-white md:my-32 md:px-40 h-screen p-">
-                <div className="flex flex-col gap-14 md:row-start-1 pb-40">
+                <div className={`flex flex-col gap-14 md:row-start-1 pb-40`}>
                     <Image className="w-auto h-auto" src={props.imagem1!} alt={""} width={300} height={300} ></Image>
                     <Image className="w-auto h-auto" src={props.imagem2!} alt={"2"} width={300} height={300}></Image>
                     <Image className={`${ativaTerceira? 'block': 'hidden'} w-auto h-auto`} src={props.imagem3!} alt={"3"} width={300} height={300}></Image>

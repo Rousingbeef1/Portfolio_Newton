@@ -8,7 +8,7 @@ export default function Forms() {
     const [ativar, setAtivar] = useState(false)
     const [instaCheca, setInstaCheca] = useState(false)
     const whatsappoff = require('../../../public/assets/whatsappdesativado.png')
-    const whatsappon = require('../../../public/assets/whatsaappativado.png')
+    const whatsappon = require('../../../public/assets/whatsappativado.png')
     const instagramoff = require('../../../public/assets/instagramdesativado.png')
     const instagramon = require('../../../public/assets/instagramativado.png')
     const [imagem, setImagem] = useState(whatsappoff)
@@ -36,10 +36,10 @@ export default function Forms() {
     return (
         <section id='Contatos' className="w-screen overflow-hidden">
             <div className="bg-[#240024] w-screen py-40 ">
-                <div className=" w-min mx-auto ">
-                    <h2 className="mx-auto w-min text-5xl pb-14 font-poppinssemibold">CONTATOS</h2>
-                    <div className="flex bg-gra w-[60vw]">
-                        <div className="flex flex-col items-center flex-wrap w-full ">
+                <div className=" w-min mx-auto flex flex-col justify-center items-center">
+                    <h2 className="flex justify-center items-center mx-auto w-min text-5xl pb-14 font-poppinssemibold text-white">CONTATOS</h2>
+                    <div className="flex justify-center bg-gra w-[60vw] ">
+                        <div className="flex flex-col items-center justify-center flex-wrap w-full ">
                             <form className="grid grid-cols-4 w-full md:w-[50%] gap-3 min-w-[10px]" action="" method="post">
                                 <input className="rounded-md h-8 col-span-2 px-2 py-5 text-black" type="text" placeholder="Nome" />
                                 <input className="rounded-md h-8 col-span-2 px-2 py-5 text-black" type="email" name="" id="" placeholder="E-mail" />
@@ -51,12 +51,12 @@ export default function Forms() {
                             <div className='flex gap-8 mt-6'>
                                 <div className=''>
                                     <Link className='w-fit' href={'https://wa.me/559591624873'}>                                    
-                                        <Image onMouseOver={() => { setAtivar(!ativar) }} onMouseLeave={() => { setAtivar(!ativar) }} src={imagem} alt={''} width={100} height={100}></Image>
+                                        <Image onMouseOver={() => { setAtivar(!ativar) }} onMouseLeave={() => { setAtivar(!ativar) }} src={imagem} alt={''} width={60} height={60}></Image>
                                     </Link>
                                 </div>
                                 <div>
                                     <Link href={'https://www.instagram.com/_niutin_/'}> 
-                                        <Image onMouseOver={() => { setInstaCheca(!instaCheca) }} onMouseLeave={() => { setInstaCheca(!instaCheca) }} src={imagem2} alt={''} width={100} height={100}></Image>
+                                        <Image onMouseOver={() => { setInstaCheca(!instaCheca) }} onMouseLeave={() => { setInstaCheca(!instaCheca) }} src={imagem2} alt={''} width={60} height={60}></Image>
                                     </Link>
                                 </div>
                             </div>

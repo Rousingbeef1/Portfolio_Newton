@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NavBar from "../components/Navbar";
+import NavBar2 from "../components/NavBar2";
 
 export default function pitangaBrasil() {
     const imagem1 = require('../../../public/assets/pitangabrasil/pitangabrasil1.png')
@@ -10,7 +11,7 @@ export default function pitangaBrasil() {
 
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar2></NavBar2>
             
             <section className="grid grid-cols-1 gap-12 md:grid-cols-2 bg-white md:py-32 md:px-40 h-screen py-6">
                 <div className="flex flex-col gap-14 md:row-start-1 pb-40">
