@@ -1,5 +1,4 @@
 import Image from "next/image";
-import NavBar from "../components/Navbar";
 import NavBar2 from "../components/NavBar2";
 
 export default function pitangaBrasil() {

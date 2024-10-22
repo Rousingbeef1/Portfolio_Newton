@@ -1,5 +1,4 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import NavBar from "./Navbar";
 import Image from "next/image";
 import Navbar2 from "./NavBar2";
 

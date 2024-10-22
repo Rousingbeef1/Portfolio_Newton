@@ -1,4 +1,3 @@
-import NavBar from "../components/Navbar";
 import Navbar2 from "../components/NavBar2";
 import ProdutoCard from "../components/ProdutoCard";
 
