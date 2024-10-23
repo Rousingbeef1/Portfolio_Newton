@@ -74,9 +74,9 @@ export default function PaginaDeProduto(props:pagina_de_produto) {
                 </div>
                 <div className="row-start-1 md:order-0 p-4">
                     <h1 className=" md:text-[2vw] text-2xl mb-4 md:leading-normal text-black">Projeto:<br />{props.titulo}</h1>
-                    <span className="font-poppinsBold md:text-[1vw] text-lg text-black">Modelo: </span>
+                    <span className="font-poppinsBold md:text-[1vw] text-lg text-black leading-loose">Modelo: </span>
                     <span className="font-poppins md:text-[1vw] text-lg text-black">{props.modelo}</span>
-                    <p className="font-poppins md:text-[1vw] leading-relaxed text-lg text-black">Objetivo:{props.objetivo}</p>
+                    <p className="font-poppins md:text-[1vw] leading-relaxed text-lg text-black"><span className="font-poppinsBold text-lg md:text-[1vw] text-black">Objetivo:  </span>{props.objetivo}</p>
                     <p className="font-poppins md:text-[1vw] leading-relaxed mt-4 text-lg text-black">
                         <span className="font-poppinsBold text-lg md:text-[1vw] text-black">Sobre:</span> {props.sobre}
                     </p>

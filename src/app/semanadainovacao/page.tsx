@@ -7,9 +7,9 @@ export default function SemanaDainovacao(){
         <div className="">
         <PaginaDeProduto
             titulo={"Semana da Inovação"}
-            modelo={"identidade para Podcast"}
-            objetivo={"desenvolver a identidade visual para o Podcast “ Justiça em foco”. A logo deve transmitir a essência do podcast, utilizando elementos visuais que remetam ao mundo jurídico, ao mesmo tempo em que se mantenha atraente para o público geral."}
-            sobre={"Sobre: O Justiça em Foco é um podcast do Tribunal de Justiça de Roraima (TJRR) que visa promover a transparência e a educação jurídica. O programa aborda temas relevantes do sistema judiciário, esclarecendo dúvidas da população sobre processos legais e direitos civis."}
+            modelo={"Capa para evento"}
+            objetivo={"Desenvolver a identidade para o evento “Semana da Inovação”, utilizando elementos e cores que reforcem a temática do evento, além de atrair o público-alvo para se inscrever nas palestras."}
+            sobre={"Sobre: A identidade visual criada para o evento da EJURR, promovido pelo TJRR, traz uma combinação de laranja e preto, cores escolhidas para refletir a energia e a seriedade do evento. No centro da composição, uma lâmpada estrategicamente posicionada conecta de forma simbólica a proposta do evento à sua logo, iluminando a ideia central e criando uma conexão visual impactante e coerente com o tema."}
             imagem1={imagem1}
             imagem2={imagem2}
             
